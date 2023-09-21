@@ -8,8 +8,7 @@ def command_find(command: str, text: str) -> bool:
         my_list = out.split('\n')
         if text in my_list:
             return True
-        else:
-            return False
+    return False
 
 
 if __name__ == '__main__':
